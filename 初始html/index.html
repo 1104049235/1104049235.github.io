@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>初始html | ljw`s site</title>
+
+    
+
+
+
+<meta name="author" content="" />
+<meta name="description" content="" />
+
+
+
+<meta name="generator" content="Hugo 0.83.1" />
+
+<link rel="canonical" href="/%E5%88%9D%E5%A7%8Bhtml/" />
+
+
+<meta property="og:title" content="初始html" />
+<meta property="og:description" content="html简单认识" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/%E5%88%9D%E5%A7%8Bhtml/" /><meta property="article:section" content="" />
+<meta property="article:published_time" content="2021-05-23T18:47:34&#43;08:00" />
+<meta property="article:modified_time" content="2021-05-23T18:47:34&#43;08:00" />
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="初始html"/>
+<meta name="twitter:description" content="html简单认识"/>
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+<link rel="stylesheet" href="/css/icomoon.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/overlayscrollbars@1.13.1/css/OverlayScrollbars.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@4.0.0/github-markdown.min.css">
+<link rel="stylesheet" href="/css/site.css" />
+
+<style>
+  .ui.header a:not(.ui.button):hover {
+    text-decoration: underline;
+  }
+
+  
+
+  
+
+  
+
+  
+</style>
+
+
+    
+
+
+
+
+
+
+
+    
+  </head>
+
+  <body class="default">
+    
+<nav class="ui secondary menu dream-menu dream-nav">
+
+  <div class="item">
+    <i class="large link bullseye icon dream-flip-toggle" title="Flip it!"></i>
+  </div>
+  <div class="item">
+    <i class="large link home icon" title="Home" onclick="window.location.href = ''"></i>
+  </div>
+  
+  
+</nav>
+
+    <div class="flip-container">
+      <div class="flipper">
+        <section class="front">
+          <div class="dream-max-width">
+            
+<div class="ui relaxed centered grid dream-grid dream-grid-single">
+  
+  
+  
+  
+
+  
+  <aside class="sixteen wide mobile sixteen wide tablet three wide computer column dream-single-aside">
+  
+    
+    <div class="ui segment toc">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#基础框架">基础框架</a></li>
+    <li><a href="#标签">标签</a></li>
+    <li><a href="#全局属性">全局属性</a>
+      <ul>
+        <li><a href="#class">class</a></li>
+        <li><a href="#contenteditable">contenteditable</a></li>
+        <li><a href="#hidden">hidden</a></li>
+        <li><a href="#id">id</a></li>
+        <li><a href="#style">style</a></li>
+        <li><a href="#tabindex">tabindex</a></li>
+        <li><a href="#title">title</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+    
+
+    
+  
+  </aside>
+  
+  <div class="sixteen wide mobile sixteen wide tablet ten wide computer column markdown-body dream-single" id="dream-save-post-as-img">
+    <section class="ui top attached segment">
+      <header>
+        <h1 class="ui large header">初始html<span class="sub header">
+            <span class="left">
+              @
+              
+                
+                  Author Name
+                
+              
+
+              | 
+                  
+                    Sunday, May 23, 2021
+                  
+                
+
+              | 1 minute read
+
+              
+              | Update at
+                
+                  
+                    Sunday, May 23, 2021
+                  
+                
+              
+            </span>
+
+            
+            <span class="dream-share">
+  <a href="#" class="save-as-image" title="Save as image" onclick="savePostAsImg()">
+    <i class="save icon"></i>
+  </a>
+  <a href="https://twitter.com/intent/tweet?text=%e5%88%9d%e5%a7%8bhtml&url=%2f%25E5%2588%259D%25E5%25A7%258Bhtml%2f" title="Twitter">
+    <i class="twitter icon"></i>
+  </a>
+  <a href="https://facebook.com/sharer/sharer.php?u=%2f%25E5%2588%259D%25E5%25A7%258Bhtml%2f" title="Facebook">
+    <i class="facebook icon"></i>
+  </a>
+</span>
+
+            
+          </span>
+        </h1>
+      </header>
+
+      <article class="main">
+        
+
+        <p>html简单认识</p>
+<h1 id="html简介">html简介</h1>
+<p>Tim Berners-Lee和同事 Daniel W. Connolly于1990年创立的一种标记语言</p>
+<h1 id="html-基础">html 基础</h1>
+<h2 id="基础框架">基础框架</h2>
+<pre><code>&lt;!DOCTYPE html&gt;   &lt;!--标识文档类型 --&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+	&lt;meta charset=&quot;UTF-8&quot; &gt; &lt;!--设置字符集 --&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1.0&quot; &gt;
+	&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;&gt;
+	&lt;title&gt;页面标题&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre><h2 id="标签">标签</h2>
+<pre><code>&lt;h1&gt; &lt;!--标题标签 --&gt;
+&lt;section&gt; &lt;!--章节标签 --&gt;
+&lt;a&gt; &lt;!-- 超链接 --&gt;
+&lt;p&gt; &lt;!-- 段落 --&gt;
+&lt;ol&gt;&lt;li&gt; &lt;!--order list , list item --&gt;
+&lt;ul&gt;&lt;li&gt;  &lt;!--unorder list , list item --&gt;
+&lt;dl&gt;&lt;dt&gt;&lt;dd&gt; &lt;!--description list,description title ,description data  --&gt;
+&lt;pre&gt;
+&lt;hr&gt; &lt;!-- 分隔符 --&gt;
+&lt;br&gt; &lt;!-- 换行 --&gt;
+&lt;em&gt; &lt;!-- 强调 斜体 --&gt;
+&lt;strong&gt; &lt;!-- 强调 --&gt;
+&lt;quote&gt; &lt;!-- 引用 --&gt; 
+&lt;blockquote&gt; &lt;!-- 块引用 --&gt; 
+</code></pre><h2 id="全局属性">全局属性</h2>
+<h3 id="class">class</h3>
+<ul>
+<li>标识类型名字</li>
+<li>这只css 属性</li>
+</ul>
+<h3 id="contenteditable">contenteditable</h3>
+<ul>
+<li>contenteditable=&ldquo;true&rdquo;</li>
+<li>可被修改 （加入该属性后html内容可被修改）</li>
+</ul>
+<h3 id="hidden">hidden</h3>
+<ul>
+<li>hidden</li>
+<li>标识该标签是否显示</li>
+</ul>
+<h3 id="id">id</h3>
+<ul>
+<li>全局唯一标识 用来找到标签</li>
+<li>该标识如果重复html 不会报错提示</li>
+</ul>
+<h3 id="style">style</h3>
+<ul>
+<li>设置该标签的样式内容</li>
+</ul>
+<h3 id="tabindex">tabindex</h3>
+<ul>
+<li>默认值为0</li>
+<li>大于0  标识可被聚焦 可以通过键盘导航找到该元素</li>
+<li>小于0 表示可以被聚焦 但是无法通过键盘访问该元素</li>
+</ul>
+<h3 id="title">title</h3>
+<ul>
+<li>设置标签标题</li>
+<li>当该属性有值时鼠标放入会浮动显示</li>
+</ul>
+      </article>
+    </section>
+
+    
+
+    
+
+    
+  </div>
+</div>
+
+
+            <footer class="ui basic center aligned segment" style="background-color: transparent;">
+              
+              <p>© 2021 ljw`s site</p>
+              
+
+              <p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with theme <a href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</p>
+
+              
+            </footer>
+          </div>
+        </section>
+        <section class="back">
+          <div class="dream-max-width">
+            <header class="ui basic very padded segment dream-header">
+  
+
+  <div class="content">
+    <h1 class="ui medium header">Set headerTitle in the config to display<span class="sub header"></span>
+    </h1>
+
+    <article class="ui horizontal list">
+      
+      <a class="item" href="/categories">
+        <i class="th list icon" title="All Categories"></i>
+      </a>
+      <a class="item" href="/tags">
+        <i class="tags icon" title="All Tags"></i>
+      </a>
+    </article>
+
+    
+    
+    
+    
+    
+      
+    
+      
+    
+    
+
+    
+
+    
+    
+    
+          <div class="dream-tags">
+          
+          
+          
+            <a class="ui label" href="/tags/tag1/" title="tag1">
+              tag1
+            </a>
+          
+          
+          
+            <a class="ui label" href="/tags/tag2/" title="tag2">
+              tag2
+            </a>
+          
+          </div>
+    
+
+    
+  </div>
+</header>
+
+
+<div class="ui relaxed grid dream-grid dream-back">
+  
+  
+  
+
+  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    <article class="ui segment">
+      <div class="ui medium header">Social Links</div>
+      <nav class="ui secondary menu dream-menu dream-socials">
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</nav>
+
+    </article>
+  </div>
+
+  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    
+  </div>
+
+  
+  
+  
+</div>
+
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+
+    
+
+    <script>
+  window.background =  null 
+  window.defaultDark =  null 
+  window.backgroundDark =  null 
+  window.backgroundImageDark =  null 
+  window.darkNav =  null 
+  window.maxTags =  null 
+  window.hasTwitterEmbed =  null 
+  window.fixedNav =  null 
+
+  if (window.hasTwitterEmbed) {
+    
+    window.twttr = (function (d, s, id) {
+      var js,
+        fjs = d.getElementsByTagName(s)[0],
+        t = window.twttr || {}
+      if (d.getElementById(id)) return t
+      js = d.createElement(s)
+      js.id = id
+      js.src = 'https://platform.twitter.com/widgets.js'
+      fjs.parentNode.insertBefore(js, fjs)
+
+      t._e = []
+      t.ready = function (f) {
+        t._e.push(f)
+      }
+
+      return t
+    })(document, 'script', 'twitter-wjs')
+  }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/overlayscrollbars@1.13.1/js/jquery.overlayScrollbars.min.js"></script>
+<script src="/js/header.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/theme.js"></script>
+
+    
+
+
+
+<script src="/js/scrollToTop.js"></script>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.1/dist/html2canvas.min.js"></script>
+<script src="/js/post.js" defer></script>
+
+
+    
+
+    
+  </body>
+</html>
